@@ -1,0 +1,3 @@
+sudo mysql
+CREATE DATABASE kiki
+CHARACTER SET utf8 

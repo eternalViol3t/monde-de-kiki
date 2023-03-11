@@ -1,0 +1,63 @@
+.cell {
+  float: left;
+  width: 30%;
+}
+
+@media screen and (max-width: 1020px) {
+  .cell {
+    float: left;
+    width: 20%;
+  }
+}
+
+.decal {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.center {
+  text-align: center;
+}
+    
+.main_container {
+  margin: 0 auto;
+  height: 46px;
+  width: auto;
+  padding: 3px;
+  /*margin: 2px;*/
+  max-width: 300px;
+  background-color: white;
+  /*align-content: center;*/
+  text-align: center;
+  
+}
+
+.container_inner {
+  height: auto;
+  border: none;
+  background-color: white;
+  max-width: 290px;
+  /*vertical-align: center; */
+  padding-top: 12px;
+  padding-left: 10px;
+  /*align-content: center;*/
+}
+
+ .num_tiles {
+  width:30px;
+  height: 30px;
+  background-color: #888888;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  line-height: 20px;
+  padding: 3px;
+  margin: 1.5px;
+  font-family: verdana;
+  vertical-align: center;
+}
+
+ .kk_vues {
+  padding: 6px;
+  color: grey;
+ }
